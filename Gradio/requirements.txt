@@ -1,0 +1,29 @@
+# Core
+torch>=2.1.0
+torchvision>=0.16.0
+numpy
+pandas
+opencv-python
+Pillow
+tqdm
+rfdetr
+
+# Gradio Interface
+gradio>=4.20.0
+
+# Hugging Face Transformers (for DINOv2)
+transformers>=4.40.0
+accelerate
+huggingface-hub
+
+# Visualization
+supervision
+
+# For logging (optional, based on log.py)
+loguru
+
+# If using CLIP or image features
+scikit-image
+
+# Others
+requests
